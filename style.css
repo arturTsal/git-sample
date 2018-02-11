@@ -1,0 +1,84 @@
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+}
+#data{
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+}
+#user_value{
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    background-color: bisque;
+    border-bottom: 2px solid black;
+    color: dimgray;
+    font-size: 14pt;
+    width: 500px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#start{
+    outline: none;
+    display: block;
+    margin: 10px auto 0;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: bisque;
+    cursor: pointer;
+    font-size: 12pt;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid black;
+    transition: 500ms;
+}
+#start:hover{
+    background-color: black;
+    color: bisque;
+}
+#reset{
+    outline: none;
+    display: none;
+    margin: 100px auto 0;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: bisque;
+    cursor: pointer;
+    font-size: 12pt;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    transition: 500ms;
+    border: 2px solid black;
+}
+#reset:hover{
+    background-color: black;
+    color: bisque;
+}
+#table{
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 16pt;
+    background-color: black;
+}
+#table td{
+    margin: 2px;
+    background-color: bisque;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+#content{
+    display: none;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+}
